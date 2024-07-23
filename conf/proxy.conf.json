@@ -1,0 +1,29 @@
+{
+    "/api/*": {
+      "target": "https://8080-valtimoacad-valtimoacad-ghuoqeogfhd.ws-eu114.gitpod.io",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    },
+    "/management/*": {
+      "target": "https://8080-valtimoacad-valtimoacad-ghuoqeogfhd.ws-eu114.gitpod.io",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    },
+    "/v3/*": {
+      "target": "https://8080-valtimoacad-valtimoacad-ghuoqeogfhd.ws-eu114.gitpod.io",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    },
+    "/mock-api/*": {
+      "target": "https://8080-valtimoacad-valtimoacad-ghuoqeogfhd.ws-eu114.gitpod.io",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/mock-api/": ""
+      }
+    }
+  }
